@@ -88,7 +88,6 @@ function setToDefault() {
 
 function checkAnswer(selectedID) {
   if (selectedID == quizData[currentQuiz].answer) {
-    console.log("Your Answer is correct");
     Answer.push(1);
   }
 }
